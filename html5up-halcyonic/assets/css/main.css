@@ -219,7 +219,7 @@ input, select, textarea {
 		}
 
 		.row > .col-3 {
-			width: 25%;
+			width: 100%;
 		}
 
 		.row > .off-3 {
@@ -1516,18 +1516,22 @@ input, select, textarea {
 		border-bottom: solid 0px #272d30;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+		color: #ffffff;
+		
 	}
 
 		#header > .container {
 			position: relative;
 			min-height: 155px;
+		
 		}
 
 		#header h1 {
 			position: absolute;
-			left: 0;
+			left: 130px;
 			bottom: 35px;
-			font-size: 2.75em;
+			font-size: 2em;
+			
 		}
 
 			#header h1 a {
@@ -1540,10 +1544,11 @@ input, select, textarea {
 			right: 0;
 			bottom: 35px;
 			font-weight: 200;
+			
 		}
 
 			#header nav a {
-				color: #c6c8c8;
+				color: #ffffff;
 				text-decoration: none;
 				font-size: 1.4em;
 				margin-left: 60px;
@@ -1551,12 +1556,21 @@ input, select, textarea {
 			}
 
 				#header nav a:hover {
-					color: #f6f8f8;
+					color: #ffffff;
 				}
 
 		.subpage #header > .container {
 			height: 155px;
+			
 		}
+		#header img{
+			display:block;
+			padding-right: ;
+
+		}
+		
+		
+
 
 /* Banner */
 
@@ -1564,7 +1578,9 @@ input, select, textarea {
 		border-top: solid 0px #222628;
 		box-shadow: inset 0px 1px 0px 0px #3e484a;
 		padding: 35px 0 35px 0;
-		color: #fff;
+		color: #000000;
+		text-shadow: #000000;
+		background-color: #EEE2DE;
 	}
 
 		#banner .bordered-feature-image {
@@ -1578,6 +1594,7 @@ input, select, textarea {
 			padding-right: 1em;
 			margin: 0 0 1em 0;
 		}
+		
 
 /* Features */
 
@@ -1610,9 +1627,10 @@ input, select, textarea {
 /* Content */
 
 	#content {
-		background: #EEE2DE url("images/bg04.png");
+		background: #EEE2DE ;
 		border:0px solid;
 		padding: 45px 0 45px 0;
+		
 	}
 
 		#content section {
@@ -1626,6 +1644,8 @@ input, select, textarea {
 			font-size: 1.8em;
 			color: #373f42;
 			margin: 0 0 0.25em 0;
+			text-align: center;
+		
 		}
 
 		#content h3 {
@@ -1652,6 +1672,15 @@ input, select, textarea {
 		#content .check-list li {
 			border-bottom: solid 0px #e2e6e8;
 		}
+		#content p{
+			font-size: 0.60cm;
+		}
+		#content ul{
+			 margin-top: -35px ;
+			font-size: 0.60cm;
+			margin-left: 13px;
+		}
+		
 
 /* Footer */
 
@@ -1690,16 +1719,17 @@ input, select, textarea {
 /* Copyright */
 
 	#copyright {
-		border-top: solid 1px #b5bec3;
+		border-top: solid 1px #000000;
 		box-shadow: inset 0px 1px 0px 0px #e0e4e7;
 		text-align: center;
 		padding: 45px 0 80px 0;
-		color: #8d9ca3;
+		color: #ffffff;
 		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+		background-color: #2B2A4C;
 	}
 
 		#copyright a {
-			color: #8d9ca3;
+			color: #ffffff;
 		}
 
 /* Large */
@@ -1753,7 +1783,8 @@ input, select, textarea {
 		/* Header */
 
 			#header h1 {
-				font-size: 2.25em;
+				 font-size: 2cm;
+		
 			}
 
 			#header nav a {
@@ -1807,6 +1838,8 @@ input, select, textarea {
 			}
 
 		/* Nav */
+
+		
 
 			#page-wrapper {
 				-moz-backface-visibility: hidden;
@@ -1865,7 +1898,7 @@ input, select, textarea {
 						position: absolute;
 						top: 6px;
 						left: 6px;
-						color: #fff;
+						color: #ffffff;
 						background: rgba(255, 255, 255, 0.025);
 						box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.05), inset 0px -8px 10px 0px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
 						text-shadow: -1px -1px 1px black;
@@ -1955,7 +1988,9 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
-
+			
+			
+			
 	}
 
 /* Small */
@@ -2025,6 +2060,7 @@ input, select, textarea {
 			#copyright {
 				padding: 20px 30px;
 			}
+			background-color: ;
 
 	}
 	.custom-shape-divider-bottom-1714462658 {
@@ -2035,7 +2071,7 @@ input, select, textarea {
 		overflow: hidden;
 		line-height: 0;
 		transform: rotate(180deg);
-		background-color:#2B2A4C;
+		background-color:#EEE2DE;
 	}
 	
 	.custom-shape-divider-bottom-1714462658 svg {
@@ -2068,3 +2104,5 @@ input, select, textarea {
 	.custom-shape-divider-top-1714462955 .shape-fill {
 		fill: #B31312;
 	}
+
+	

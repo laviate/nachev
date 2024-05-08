@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-l)xp#pof()vlsufozy*^9ca9dixvooyz@7x95hs4bdo&@=(ypy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', '192.168.3.106']
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', '192.168.3.106', 'laviate.pythonanywhere.com']
 
 
 # Application definition
